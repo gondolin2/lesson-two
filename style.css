@@ -1,3 +1,21 @@
 body{
-    background-color:rgb(241, 230, 216);  
+    background-color:lightgrey;
+    font-family: Arial, Helvetica, sans-serif;  
     }
+
+h1 {
+    text-align: center;
+}
+
+h4{
+    text-align: center;
+}
+
+.center{
+    text-align: center;
+}
+
+.btn-group .button{
+    width: 10%;
+}
+
