@@ -47,6 +47,7 @@ nav li{
 
 nav a{
     color:white;
+    font-size:15px;
     text-decoration:none;
     text-transform:uppercase;
 }
