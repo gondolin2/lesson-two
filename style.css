@@ -48,6 +48,10 @@ nav li{
     position:relative;
 }
 
+nav li a.active {
+    color:#c5cecb;
+}
+
 nav a{
     color:white;
     font-size:15px;
@@ -55,8 +59,9 @@ nav a{
     text-transform:uppercase;
 }
 
+
 nav a:hover {
-    color:#d3dbd9;
+    color:#c5cecb;
 }
 
 nav a::before {
