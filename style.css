@@ -97,7 +97,13 @@ nav a:hover::before {
 footer {
     background-color:#215e52;
     height:85px;
-    margin-bottom:0;
+    margin-bottom:auto;
+}
+
+.footer-link {
+    color:#bdc9c5;
+    text-decoration: none;
+    padding-right:350px;
 }
 
 .footer-imgs{
