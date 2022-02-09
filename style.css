@@ -81,3 +81,11 @@ nav a::before {
 nav a:hover::before {
     width:100%;
 }
+
+footer {
+    background-color:#215e52;
+}
+
+.paypal-img {
+    width: 230px;
+}
