@@ -101,14 +101,16 @@ footer {
 }
 
 .footer-link {
-    color:#bdc9c5;
+    color:#ffffff;
     text-decoration: none;
     padding-left:15px;
     padding-top:15px;
     display:inline-flex;
 }
 
-
+.footer-link a:hover {
+    color:#bdc9c5;
+}
 
 .footer-imgs{
     float:right;
