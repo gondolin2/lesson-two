@@ -82,10 +82,33 @@ nav a:hover::before {
     width:100%;
 }
 
+.container {
+    width:80%;
+}
+
 footer {
     background-color:#215e52;
+    height:70px;
+    margin-bottom:0;
+}
+
+.footer-imgs{
+    float:right;
 }
 
 .paypal-img {
-    width: 230px;
+    width: 85px;
+    padding-bottom:1px;
+}
+
+.trustpilot-img {
+    width:100px;
+    padding-bottom:9px;
+}
+
+.bbb-img {
+    width: 95px;
+    padding-top:7px;
+    padding-right:8px;
+    padding-left:4px;
 }
