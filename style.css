@@ -119,5 +119,11 @@ footer {
     width: 95px;
     padding-top:15px;
     padding-right:15px;
-    padding-left:6px;
+    padding-left:8px;
+}
+
+.shopify-img {
+    width: 85px;
+    padding-bottom:17px;
+    padding-right:7px;
 }
