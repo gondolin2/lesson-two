@@ -7,7 +7,7 @@ body{
 
     }
 
-.container{
+.header-container{
         width: 90%;
         margin: 0 auto;
     }    
@@ -82,13 +82,21 @@ nav a:hover::before {
     width:100%;
 }
 
+.banner {
+    width:100%;
+    margin-top:5px;
+}
+
 .container {
-    width:80%;
+    width:85%;
+    margin-left:auto;
+    margin-right: auto;
+    
 }
 
 footer {
     background-color:#215e52;
-    height:70px;
+    height:85px;
     margin-bottom:0;
 }
 
@@ -98,17 +106,18 @@ footer {
 
 .paypal-img {
     width: 85px;
-    padding-bottom:1px;
+    padding-top:4px;
 }
 
 .trustpilot-img {
     width:100px;
-    padding-bottom:9px;
+    padding-bottom:6px;
+    padding-right:5px;
 }
 
 .bbb-img {
     width: 95px;
-    padding-top:7px;
-    padding-right:8px;
-    padding-left:4px;
+    padding-top:15px;
+    padding-right:15px;
+    padding-left:6px;
 }
