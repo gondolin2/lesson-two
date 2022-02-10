@@ -6,6 +6,13 @@
     <title>Order Form | GPU Depot</title>
     <link rel="icon" type="image/x-icon" href="favicon.ico">
     <link rel="stylesheet" href="style.css">
+
+    <style>
+        h2 {
+            text-align:center;
+           }
+    </style>
+
 </head>
 <body>
     <header>
@@ -21,12 +28,42 @@
         </div>
     </header>
     <img src="gpu-banner.jpg" alt="GPUs" class="banner">
-
-    <div class = "orderform">
-
-
-    </div>
-    
+    <br>
+    <h2>Place an Order</h2>
+    <section class="order-container">
+        <div class="order-form-alignment">
+        <br>
+        <h3>Contact Information</h3>
+        <form class = "orderform">
+            <input type="email" placeholder="Email" class="wide-input"><br>
+            <input type="checkbox" id="newsletter">
+            <label for="newsletter">Sign up for our newsletter for product updates and discounts!</label><br>
+            <br>
+            <h3>Shipping Address</h3>
+            <input type="text" placeholder="First Name" class="fname">
+            <input type="text" placeholder="Last Name" class="lname">
+            <br>
+            <input type="text" placeholder="Company (optional)" class="wide-input">
+            <br>
+            <input type="text" placeholder="Address" class="wide-input">
+            <br>
+            <input type="text" placeholder="Apartment, suite, etc. (optional)" class="wide-input">
+            <br>
+            <input type="text" placeholder="City" class="wide-input"><br>
+            <input type="text" placeholder="Country/region" id="country">
+            <input type="text" placeholder="State" id="state">
+            <input type="number" placeholder="ZIP code" id="zip">
+            <br>
+            <input type="tel" placeholder="Phone" class="wide-input"><br>
+            <input type="checkbox" id="save-info">
+            <label for="save-info">Save this information for next time</label>
+            <br><br>
+            <input type="submit" value="Place Order" id="place-order">
+            <br>
+        </form>
+        </div>
+        <br>
+    </section>
 
     <footer>
         <div class="footer-link">

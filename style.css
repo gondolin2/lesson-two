@@ -1,9 +1,10 @@
 body{
     background-color:lightgrey;
-    font-family: Arial, Helvetica, sans-serif; 
-    font-weight:300; 
-    margin-left: 20px;
-    margin-right:20px;
+    font-family: Helvetica, Arial, sans-serif; 
+    font-weight:300;
+    width:65%; 
+    margin-left: auto;
+    margin-right:auto;
 
     }
 
@@ -43,13 +44,13 @@ nav ul{
 nav li{
     display:inline-block;
     margin-left:70px;
-    padding-top: 25px;
+    padding-top: 28px;
 
     position:relative;
 }
 
 nav li a.active {
-    color:#bdc9c5;
+    color:#abb9b5;
 }
 
 nav a{
@@ -61,7 +62,7 @@ nav a{
 
 
 nav a:hover {
-    color:#bdc9c5;
+    color:#abb9b5;
 }
 
 nav a::before {
@@ -88,11 +89,13 @@ nav a:hover::before {
 }
 
 .container {
-    width:85%;
+    width:90%;
     margin-left:auto;
     margin-right: auto;
     
 }
+
+/* Footer */
 
 footer {
     background-color:#215e52;
@@ -104,7 +107,7 @@ footer {
     color:#ffffff;
     text-decoration: none;
     padding-left:15px;
-    padding-top:15px;
+    padding-top:17px;
     display:inline-flex;
 }
 
@@ -138,4 +141,67 @@ footer {
     width: 85px;
     padding-bottom:17px;
     padding-right:7px;
+}
+
+/* Order form */
+
+.order-container {
+    width:60%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:20px;
+    background-color: #bdc9c5;
+    padding-left:35px;
+
+}
+
+/*
+.order-form-alignment {
+    padding-left:120px;
+}
+*/
+.fname {
+    margin-bottom:5px;
+    width:44%
+}
+
+.lname {
+    width:44%;
+    margin-bottom:5px;
+    padding-left:4px;
+}
+
+label {
+    font-size: small;
+    color:rgb(31, 31, 31);
+}
+
+.wide-input {
+    width:90%;
+    margin-top:5px;
+    margin-bottom:5px;
+}
+
+#country {
+    margin-top:5px;
+    margin-bottom:5px;
+    width:33%;
+}
+
+#state {
+    margin-left:5px;
+    margin-right:5px;
+    margin-bottom:5px;
+    width: 30%;
+}
+
+#zip {
+    width: 22%;
+    margin-bottom:5px;
+}
+
+#place-order {
+    float:inline-end;
+    margin-right:92px;
+    margin-bottom:10px;
 }
