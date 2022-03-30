@@ -165,7 +165,7 @@ footer {
 */
 .fname {
     margin-bottom:5px;
-    width:44%
+    width:43%
 }
 
 .lname {
@@ -205,6 +205,6 @@ label {
 
 #place-order {
     float:inline-end;
-    margin-right:92px;
+    margin-right:70px;
     margin-bottom:10px;
 }
