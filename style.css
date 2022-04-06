@@ -149,7 +149,7 @@ footer {
 /* Order form */
 
 .order-container {
-    width:60%;
+    width:50%;
     margin-left:auto;
     margin-right:auto;
     margin-bottom:20px;
@@ -165,7 +165,7 @@ footer {
 */
 .fname {
     margin-bottom:5px;
-    width:43%
+    width:44%
 }
 
 .lname {
